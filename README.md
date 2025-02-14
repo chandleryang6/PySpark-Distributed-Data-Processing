@@ -16,9 +16,25 @@ This project implements **PySpark-based data analysis** on **NYC Yellow Taxi tri
 - PySpark (`pip install pyspark`)
 - Hadoop (optional for local testing)
 
-### **Installing PySpark**
-Run the following command to install PySpark:
+## **Installing PySpark**
+### **PySpark Environment Setup**
+To create and activate a virtual environment for this project:  
+**1. Create a Virtual Environment:**
+```bash
+python3 -m venv pyspark_env
+```
+**2. Activate the Virtual Environment:**  
+Mac/Linux:
+```bash
+source pyspark_env/bin/activate
+```
 
+Windows:
+```bash
+pyspark_env\Scripts\activate
+```
+
+**3. Run the following command to install PySpark:**
 ```bash
 pip install pyspark
 ```
